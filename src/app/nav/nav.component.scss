@@ -1,0 +1,23 @@
+img {
+    width: 100%;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    max-width: 1200px;
+    margin-top: 50px;
+    padding: 2rem 2rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-logo {
+    width: 12rem;
+    height: 12rem;
+}

@@ -1,0 +1,39 @@
+table {
+    border: 2px solid #C0C0C0;
+}
+
+#grille {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grille tr td {
+    border: 1px outset #C0C0C0;
+    background-color: #C0C0C0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+#grille tr td.active {
+    background-color: #c0c0c06b;
+    border: 1px solid #c0c0c06b;
+}
+
+#grille tr td.mine {
+    background-color: #C0C0C0;
+}
+
+
+
+.une-mine {
+    color: blue;
+}
+
+.deux-mines {
+    color: green;
+}
+
+.trois-mines {
+    color: red;
+}
